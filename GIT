@@ -13,6 +13,9 @@ GIT COMMAND ( LOCAL )
 - $ pwd               : Mengetahui lokasi di folder saat ini
 - $ ls                : Mengetahui semua folder yang ada
 - $ cd <folder(X)     : Berpindah folder
+- $ git log           : Memunculkan semua commit yang telah di lakukan
+  < $ git log -3 : memunculkan 3 commit terakhir ( "3" bisa di ganti ) >
+  < $ git log --<file(s)> : memunculkan commit sebuah file secara spesifik>
 
 
 3 AREA PADA REPO GIT

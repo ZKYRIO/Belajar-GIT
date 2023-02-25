@@ -1,8 +1,10 @@
 GIT COMMAND ( LOCAL )
 - $ git init          : Menginisialisasi repo git
 - $ git add <file(s)> : Menambahkan file sebuah Staging Area
+  < $ git add . : Digunakan untuk memasukkan semua file yang mengalami perubahan kedalam staging area >
 - $ git status        : Mengetahui status repo ( ada file baru,hilang,dll )
 - $ git commit        : Membuat sebuah commit
+  < $ git commit -m "message / keterangan yang ingin ditambahkan" >
 - $ git config        : Memasukkan configuration ke dalam git
 - $ git branch        : Membuat sebuah vranch
 - $ git help          : Membantu kita untuk mengetahui penggunaan GIT

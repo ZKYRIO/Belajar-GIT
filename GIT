@@ -6,6 +6,8 @@ GIT COMMAND ( LOCAL )
 - $ git commit        : Membuat sebuah commit
   < $ git commit -m "message / keterangan yang ingin ditambahkan" >
 - $ git config        : Memasukkan configuration ke dalam git
+  < $ git config  --global user.name "username yang ingin dimasukkan" >     } Usahakan sesuai dengan github untuk lebih memudahkan
+  < $ git config  --global user.email "email yang anda gunakan" >           } Usahakan sesuai dengan github untuk lebih memudahkan
 - $ git branch        : Membuat sebuah vranch
 - $ git help          : Membantu kita untuk mengetahui penggunaan GIT
 - $ pwd               : Mengetahui lokasi di folder saat ini

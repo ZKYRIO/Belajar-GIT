@@ -1,0 +1,15 @@
+GIT COMMAND ( LOCAL )
+- $ git init          : Menginisialisasi repo git
+- $ git add <file(s)> : Menambahkan file sebuah Staging Area
+- $ git status        : Mengetahui status repo ( ada file baru,hilang,dll )
+- $ git commit        : Membuat sebuah commit
+- $ git config        : Memasukkan configuration ke dalam git
+- $ git branch        : Membuat sebuah vranch
+- $ git help          : Membantu kita untuk mengetahui penggunaan GIT
+- $ git 
+
+
+3 AREA PADA REPO GIT
+(1) Working Area
+(2) Staging Area ---> Area untuk menyimpan semua perubahan yang ada di working area dengan ( $ git add )                         } disimpan di file dengan nama .git
+(3) History      ---> Area untuk menyimpan commit dari perubahan yang ada di staging area dengan ( $ git commit )                } disimpan di file dengan nama .git

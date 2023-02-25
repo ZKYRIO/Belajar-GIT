@@ -6,7 +6,9 @@ GIT COMMAND ( LOCAL )
 - $ git config        : Memasukkan configuration ke dalam git
 - $ git branch        : Membuat sebuah vranch
 - $ git help          : Membantu kita untuk mengetahui penggunaan GIT
-- $ git 
+- $ pwd               : Mengetahui lokasi di folder saat ini
+- $ ls                : Mengetahui semua folder yang ada
+- $ cd <folder(X)     : Berpindah folder
 
 
 3 AREA PADA REPO GIT

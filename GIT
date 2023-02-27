@@ -8,7 +8,7 @@ GIT COMMAND ( LOCAL )
 - $ git commit        : Membuat sebuah commit
 
   < $ git commit -m "message / keterangan yang ingin ditambahkan" >
-  < $ git commit -am "message" : digunakan untuk meng add + commit file yang telah di commit sebelumnya >
+  < $ git commit -am "message" : digunakan untuk meng commit file modified / telah di add sebelumnya>
   
 - $ git config        : Memasukkan configuration ke dalam git
 

@@ -5,6 +5,7 @@ GIT COMMAND ( LOCAL )
 - $ git status        : Mengetahui status repo ( ada file baru,hilang,dll )
 - $ git commit        : Membuat sebuah commit
   < $ git commit -m "message / keterangan yang ingin ditambahkan" >
+  < $ git commit -am "message" : digunakan untuk meng add + commit file yang telah di commit sebelumnya >
 - $ git config        : Memasukkan configuration ke dalam git
   < $ git config  --global user.name "username yang ingin dimasukkan" >     } Usahakan sesuai dengan github untuk lebih memudahkan
   < $ git config  --global user.email "email yang anda gunakan" >           } Usahakan sesuai dengan github untuk lebih memudahkan

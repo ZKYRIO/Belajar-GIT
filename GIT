@@ -15,7 +15,12 @@ GIT COMMAND ( LOCAL )
   < $ git config  --global user.name "username yang ingin dimasukkan" >     } Usahakan sesuai dengan github untuk lebih memudahkan
   < $ git config  --global user.email "email yang anda gunakan" >           } Usahakan sesuai dengan github untuk lebih memudahkan
   
-- $ git branch        : Membuat sebuah vranch
+- $ git branch        : Membuat sebuah branch
+
+  < $ git branch -d <nama_branch> : menghapus branch >
+  < $ git branch --merged : mengetahui branch mana saja yang sudah di gabung > 
+  
+  
 - $ git help          : Membantu kita untuk mengetahui penggunaan GIT
 - $ pwd               : Mengetahui lokasi di folder saat ini
 - $ ls                : Mengetahui semua folder yang ada

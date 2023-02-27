@@ -39,5 +39,6 @@ GIT COMMAND ( LOCAL )
 (3) History      ---> Area untuk menyimpan commit dari perubahan yang ada di staging area dengan ( $ git commit )                } disimpan di file dengan nama .git
 
 JENIS MERGE
-1. Fast Forward : menggabungkan branch yang berada dijalur langsung / direct path
-2. three way merge :
+1. Fast Forward       : menggabungkan branch yang berada dijalur langsung / direct path
+2. three way merge    : menggabungkan branch yang tidak berada pada
+                        direct path / jalur yang menghubungkan langsung

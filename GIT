@@ -26,8 +26,13 @@ GIT COMMAND ( LOCAL )
   < $ git log --<file(s)> : memunculkan commit sebuah file secara spesifik >
   
 - $ alias <nama_alias> = "command" : Membuat nama lain / alias untuk sebuah command yang panjang
+- $ git merge <nama_branch> : menggabungkan branch
 
 3 AREA PADA REPO GIT
 (1) Working Area
 (2) Staging Area ---> Area untuk menyimpan semua perubahan yang ada di working area dengan ( $ git add )                         } disimpan di file dengan nama .git
 (3) History      ---> Area untuk menyimpan commit dari perubahan yang ada di staging area dengan ( $ git commit )                } disimpan di file dengan nama .git
+
+JENIS MERGE
+1. Fast Forward : menggabungkan branch yang berada dijalur langsung / direct path
+2. three way merge :

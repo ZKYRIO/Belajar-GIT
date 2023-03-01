@@ -29,6 +29,7 @@ GIT COMMAND ( LOCAL )
 
   < $ git log -3 : memunculkan 3 commit terakhir ( "3" bisa di ganti ) >
   < $ git log --<file(s)> : memunculkan commit sebuah file secara spesifik >
+  < $ git log --all --decorate --oneline --graph : digunakan untuk mengvisualisasikan commit pada repo >
   
 - $ alias <nama_alias> = "command" : Membuat nama lain / alias untuk sebuah command yang panjang
 - $ git merge <nama_branch> : menggabungkan branch

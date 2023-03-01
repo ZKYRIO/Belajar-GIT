@@ -1,17 +1,14 @@
 GIT COMMAND ( LOCAL )
 - $ git init          : Menginisialisasi repo git
 - $ git add <file(s)> : Menambahkan file sebuah Staging Area
-
   < $ git add . : Digunakan untuk memasukkan semua file yang mengalami perubahan kedalam staging area >
   
 - $ git status        : Mengetahui status repo ( ada file baru,hilang,dll )
 - $ git commit        : Membuat sebuah commit
-
   < $ git commit -m "message / keterangan yang ingin ditambahkan" >
   < $ git commit -am "message" : digunakan untuk meng commit file modified / telah di add sebelumnya>
   
 - $ git config        : Memasukkan configuration ke dalam git
-
   < $ git config  --global user.name "username yang ingin dimasukkan" >     } Usahakan sesuai dengan github untuk lebih memudahkan
   < $ git config  --global user.email "email yang anda gunakan" >           } Usahakan sesuai dengan github untuk lebih memudahkan
   < $ git config  --global / --local user.name / user.email " " : untuk mengganti username dan email saat melakukan commit >
@@ -19,10 +16,8 @@ GIT COMMAND ( LOCAL )
                  [ --local  : digunakan jika ingin mengubah usernamen/ email di sebuah repo saja ]
   
 - $ git branch        : Membuat sebuah branch
-
   < $ git branch -d <nama_branch> : menghapus branch >
   < $ git branch --merged : mengetahui branch mana saja yang sudah di gabung > 
-  
   
 - $ git help          : Membantu kita untuk mengetahui penggunaan GIT
 - $ pwd               : Mengetahui lokasi di folder saat ini
@@ -31,7 +26,6 @@ GIT COMMAND ( LOCAL )
 - $ cd ..             : Untuk keluar dari sebuah folder
 - $ mkdir <name>      : Untuk membuat sebuah folder
 - $ git log           : Memunculkan semua commit yang telah di lakukan
-
   < $ git log -3 : memunculkan 3 commit terakhir ( "3" bisa di ganti ) >
   < $ git log --<file(s)> : memunculkan commit sebuah file secara spesifik >
   < $ git log --all --decorate --oneline --graph : digunakan untuk mengvisualisasikan commit pada repo >
@@ -39,6 +33,7 @@ GIT COMMAND ( LOCAL )
 - $ alias <nama_alias> = "command" : Membuat nama lain / alias untuk sebuah command yang panjang
 - $ git merge <nama_branch> : menggabungkan branch
 - $ git push          : Untuk mengtransfer perubahan file ke repository jarak jauh ( GitHub , GitLab , Dll )
+- $ git fetch         : Untuk mengecek commit pada remote
 
 
 3 AREA PADA REPO GIT

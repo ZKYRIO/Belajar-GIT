@@ -38,7 +38,7 @@ GIT COMMAND ( LOCAL )
   
 - $ alias <nama_alias> = "command" : Membuat nama lain / alias untuk sebuah command yang panjang
 - $ git merge <nama_branch> : menggabungkan branch
-- $ git push          : 
+- $ git push          : Untuk mengtransfer perubahan file ke repository jarak jauh ( GitHub , GitLab , Dll )
 
 
 3 AREA PADA REPO GIT

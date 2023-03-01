@@ -14,6 +14,9 @@ GIT COMMAND ( LOCAL )
 
   < $ git config  --global user.name "username yang ingin dimasukkan" >     } Usahakan sesuai dengan github untuk lebih memudahkan
   < $ git config  --global user.email "email yang anda gunakan" >           } Usahakan sesuai dengan github untuk lebih memudahkan
+  < $ git config  --global / --local user.name / user.email " " : untuk mengganti username dan email saat melakukan commit >
+                 [ --global : digunakan jika ingin mengubah username / email di seluruh repo ]
+                 [ --local  : digunakan jika ingin mengubah usernamen/ email di sebuah repo saja ]
   
 - $ git branch        : Membuat sebuah branch
 
@@ -25,6 +28,8 @@ GIT COMMAND ( LOCAL )
 - $ pwd               : Mengetahui lokasi di folder saat ini
 - $ ls                : Mengetahui semua folder yang ada
 - $ cd <folder(X)     : Berpindah folder
+- $ cd ..             : Untuk keluar dari sebuah folder
+- $ mkdir <name>      : Untuk membuat sebuah folder
 - $ git log           : Memunculkan semua commit yang telah di lakukan
 
   < $ git log -3 : memunculkan 3 commit terakhir ( "3" bisa di ganti ) >
@@ -33,6 +38,8 @@ GIT COMMAND ( LOCAL )
   
 - $ alias <nama_alias> = "command" : Membuat nama lain / alias untuk sebuah command yang panjang
 - $ git merge <nama_branch> : menggabungkan branch
+- $ git push          : 
+
 
 3 AREA PADA REPO GIT
 (1) Working Area

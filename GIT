@@ -35,6 +35,7 @@ GIT COMMAND ( LOCAL )
 - $ git push          : Untuk mengtransfer perubahan file yang dilakukan setelah di commit ke remote repository
 - $ git pull          : Untuk mengambil commit terbaru lalu otomatis menggabungkan (merge) dengan branch yang aktif.
 - $ git fetch         : Untuk mengambil commit pada sebuah repo
+- $ git rebase        : cara lain untuk mentransfer perubahan dari satu cabang ke cabang lain / untuk menggabungkan atau menggeser commit base
 
 
 3 AREA PADA REPO GIT
@@ -46,3 +47,5 @@ JENIS MERGE
 1. Fast Forward       : menggabungkan branch yang berada dijalur langsung / direct path
 2. three way merge    : menggabungkan branch yang tidak berada pada
                         direct path / jalur yang menghubungkan langsung
+                        
+Website untuk gitignore : https://www.toptal.com/developers/gitignore/
